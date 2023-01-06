@@ -19,7 +19,7 @@
          flex
          items-center
          justify-between
-         relative
+         
          ">
          <a href="/" class=
          "focus:outline-none
@@ -38,21 +38,23 @@
             <img src="../assets/logo.svg" aria-label="Go to Homepage" alt="Home smart logo"
              class="w-48 md:w-64 lg:w-72">
          </a>
-         <button id="menu" class="focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 text-neutral-900 hover:text-neutral-600 transition-colors">
+         <button id="menu" class="focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 text-neutral-900 hover:text-neutral-600 transition-colors" aria-expanded="false" aria-label="Open Menu">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:hidden">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
               </svg>
          </button>
-         <div role="menubar" class="flex flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center p-6 text-lg items-center lg:flex lg:flex-row lg:static lg:shadow-none lg:justify-between lg:w-full">
+         <!-- <div class="hidden"> -->
+         <div role="menubar" class=" hidden flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center p-6 text-lg items-center lg:flex lg:flex-row lg:static lg:shadow-none lg:justify-between lg:w-full">
             <a href="/" role="menuitem" class="py-1 px-6 dark:text-neutral-900 ">Home</a>
             <a href="/" role="menuitem" class="py-1 px-6 dark:text-neutral-900 lg:mr-auto">Contact</a>
             <a href="/" role="menuitem" class="py-1 px-6 dark:text-neutral-900">SignUp</a>
             <a href="/" role="menuitem" class="py-2 px-6 text-white bg-teal-600 rounded-md shadow-md hover:shadow-none transition-transform ">Login</a>
          </div>
+        <!-- </div> -->
         </div>
 
       
     </nav>
-
+<script src="./index.js"></script>
 </body>
 </html>
