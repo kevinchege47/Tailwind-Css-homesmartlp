@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
 </head>
+
 <body class="mx-auto
  text-gray-800
  dark:text-gray-100
@@ -21,8 +23,7 @@
          justify-between
          
          ">
-         <a href="/" class=
-         "focus:outline-none
+            <a href="/" class="focus:outline-none
          focus-visible:ring-4
          ring-neutral-900
          rounded-sm
@@ -35,26 +36,37 @@
          z-50
          hover:opacity-75
          transition-opacity">
-            <img src="../assets/logo.svg" aria-label="Go to Homepage" alt="Home smart logo"
-             class="w-48 md:w-64 lg:w-72">
-         </a>
-         <button id="menu" class="focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 text-neutral-900 hover:text-neutral-600 transition-colors" aria-expanded="false" aria-label="Open Menu">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:hidden">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
-              </svg>
-         </button>
-         <!-- <div class="hidden"> -->
-         <div role="menubar" class=" hidden flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center p-6 text-lg items-center lg:flex lg:flex-row lg:static lg:shadow-none lg:justify-between lg:w-full">
-            <a href="/" role="menuitem" class="py-1 px-6 dark:text-neutral-900 ">Home</a>
-            <a href="/" role="menuitem" class="py-1 px-6 dark:text-neutral-900 lg:mr-auto">Contact</a>
-            <a href="/" role="menuitem" class="py-1 px-6 dark:text-neutral-900">SignUp</a>
-            <a href="/" role="menuitem" class="py-2 px-6 text-white bg-teal-600 rounded-md shadow-md hover:shadow-none transition-transform ">Login</a>
-         </div>
-        <!-- </div> -->
-        </div>
+                <img src="../assets/logo.svg" aria-label="Go to Homepage" alt="Home smart logo"
+                    class="w-48 md:w-64 lg:w-72">
+            </a>
+            <button id="menu"
+                class="focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 text-neutral-900 hover:text-neutral-600 transition-colors"
+                aria-expanded="false" aria-label="Open Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 lg:hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
 
-      
+            <div role="menubar"
+                class=" hidden flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center p-6 text-lg items-center lg:flex lg:flex-row lg:static lg:shadow-none lg:justify-between lg:w-full">
+                <a href="/" role="menuitem" class="py-1 px-6 dark:text-neutral-900 ">Home</a>
+                <a href="/" role="menuitem" class="py-1 px-6 dark:text-neutral-900 lg:mr-auto">Contact</a>
+                <a href="/" role="menuitem" class="py-1 px-6 dark:text-neutral-900">SignUp</a>
+                <a href="/" role="menuitem"
+                    class="py-2 px-6 text-white bg-teal-600 rounded-md shadow-md hover:shadow-none transition-transform ">Login</a>
+            </div>
+        </div>
     </nav>
-<script src="./index.js"></script>
+    <header class="relative pt-16 md:pt-24 lg:pt-48">
+        <div id="dunno" class="absolute inset-0 bottom-8 md:bottom-24 xl:bottom-32 -z-10 bg-gradient-to-b from-amber-400 to-amber-600"></div>
+        <div class="container mx-auto grid grid-rows-1 px-2 place-items-end">
+            <img src="../assets/couch.png" alt="Couch" class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto">
+            <img src="../assets/app.svg" alt="App" class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 sm:w-52 md:w-64 lg:w-72">
+        </div>
+    </header>
+    <script src="./index.js"></script>
 </body>
+
 </html>
